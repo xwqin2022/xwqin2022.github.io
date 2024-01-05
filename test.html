@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+		<title>清华附小清河分校2018级11班</title>
+		<link rel="shortcut icon" href="\image\class.png">
+		<style>
+		header {
+			background-color:BlueViolet;
+			color:white;
+			text-align:left;
+			padding:5px;
+		}
+		</style>
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	</head>
+	<body>
+		<header>
+			<img src="\image\class.png" width="50" height="50" />
+			<a href="\index.html"><img src="\image\home.png" width="30" height="30" /></a>
+			<a href="\our.html"><img src="\image\our.png" width="30" height="30" /></a>
+			<a href="\music.html" target="_blank"><img src="\image\music.png" width="30" height="30" /></a>
+			<a href="\news.html"><img src="\image\news.png" width="30" height="30" /></a>
+			<a href="\upload.html"><img src="\image\upload.png" width="30" height="30" /></a>
+			<a href="\more.html"><img src="\image\more.png" width="30" height="30" /></a>
+			<a href="\log.html"><img src="\image\log.png" width="30" height="30" /></a>
+		</header>
+		<div id="time"></div>
+		<div id="date"></div>
+		
+		<hr>
+		<div id="custom-text">
+			<dl>
+			   <dt>读取数据：</dt>
+			   <dd>温度探头1：26℃</dd>
+			   <dd>温度探头2：23℃</dd>
+			   <dd>湿度探头1：52%</dd>
+			   <dd>湿度探头2：37%</dd>
+			   <dd>光照探头1：136</dd>
+			</dl>
+		</div>
+		<hr>
+		<button onclick="redirectTo('http://192.168.4.1')">监控</button>
+		<button onclick="refreshPage()">刷新</button>
+		<button onclick="downloadFile()">保存</button>	
+		<script>
+		    function updateTimeAndDate() {
+		        var now = new Date();
+		        var time = now.toLocaleTimeString();
+		        var date = now.toLocaleDateString();
+		        document.getElementById("time").innerText = "当前时间：" + time;
+		        document.getElementById("date").innerText = "当前日期：" + date;
+		    }
+		    function redirectTo(url) {
+		        window.location.href = url;
+		    }
+		    function refreshPage() {
+		        location.reload();
+		    }
+		    function downloadFile() {
+		        var now = new Date();
+		        var fileName = formatDate(now) + "_" + formatTime(now) + ".txt";
+		        var content = "读取数据：\n    温度探头1：26℃\n    温度探头2：23℃\n    湿度探头1：52%\n    湿度探头2：37%\n    光照探头1：136";
+		        var element = document.createElement('a');
+		        element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(content));
+		        element.setAttribute('download', fileName);
+		        element.style.display = 'none';
+		        document.body.appendChild(element);
+		        element.click();
+		        document.body.removeChild(element);
+		    }
+		    function formatDate(date) {
+		        var year = date.getFullYear();
+		        var month = ('0' + (date.getMonth() + 1)).slice(-2);
+		        var day = ('0' + date.getDate()).slice(-2);
+		        return year + '-' + month + '-' + day;
+		    }
+		    function formatTime(date) {
+		        var hours = ('0' + date.getHours()).slice(-2);
+		        var minutes = ('0' + date.getMinutes()).slice(-2);
+		        var seconds = ('0' + date.getSeconds()).slice(-2);
+		        return hours + '-' + minutes + '-' + seconds;
+		    }
+		    $(document).ready(function() {
+		        updateTimeAndDate();
+		        setInterval(updateTimeAndDate, 1000);
+		    });
+		</script>
+		<footer>
+		<p>版权所有 &copy; 2023 xwqin</p>
+		</footer>
+	</body>
+</html>

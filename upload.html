@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+		<title>清华附小清河分校2018级11班</title>
+		<link rel="shortcut icon" href="\image\class.png">
+		<style>
+		header {
+			background-color:BlueViolet;
+			color:white;
+			text-align:left;
+			padding:5px;
+		}
+		.inputText{
+					width: 300px;
+					height: 30px;
+					line-height: 10px;
+					font-size: 15px;
+					padding-left: 30px;
+					border-radius: 50px;
+					background-color: gainsboro;
+					border: none;
+				}
+				.inputText:focus{
+					outline: none;
+					background-color: lightblue;
+				}
+		</style>
+	</head>
+	<body>
+		<header>
+			<img src="\image\class.png" width="50" height="50" />
+			<a href="\index.html"><img src="\image\home.png" width="30" height="30" /></a>
+			<a href="\our.html"><img src="\image\our.png" width="30" height="30" /></a>
+			<a href="\music.html" target="_blank"><img src="\image\music.png" width="30" height="30" /></a>
+			<a href="\news.html"><img src="\image\news.png" width="30" height="30" /></a>
+			<a href="\upload.html"><img src="\image\upload.png" width="30" height="30" /></a>
+			<a href="\more.html"><img src="\image\more.png" width="30" height="30" /></a>
+			<a href="\log.html"><img src="\image\log.png" width="30" height="30" /></a>
+		</header>
+		<h2>Login</h2>
+		<p>Please enter your administrator name id:</p>
+		<input type="text" id="userid" class="inputText">
+		<p>Please enter your administrator password:</p>
+		<input type="password" id="psw" class="inputText">
+		</br>
+		</br>
+		<input type="button" onclick="login()" value="login">
+		<footer>
+			<p>版权所有 &copy; 2023 xwqin</p>
+		</footer>
+		<script>
+			function login() {
+				var name=document.getElementById("userid").value; 
+				var pass=document.getElementById("psw").value;
+				if (name=="xsdb" && pass=="201811" || name=="qxw" && pass=="1016") {  
+					alert("登录成功！");
+					window.location.href="/upload_r.html";
+				}else if (name=="" || pass==""){
+					alert("用户名或密码不能为空！");
+				}else{
+					alert("用户名或密码错误！");
+				}
+			}
+		</script>
+	</body>
+</html>

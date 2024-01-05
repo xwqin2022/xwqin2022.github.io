@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+		<title>清华附小清河分校2018级11班</title>
+		<link rel="shortcut icon" href="\image\class.png">
+		<style>
+		header {
+			background-color:BlueViolet;
+			color:white;
+			text-align:left;
+			padding:5px;
+		}
+		</style>
+	</head>
+	<body>
+		<header>
+			<img src="\image\class.png" width="50" height="50" />
+			<a href="\index.html"><img src="\image\home.png" width="30" height="30" /></a>
+			<a href="\our.html"><img src="\image\our.png" width="30" height="30" /></a>
+			<a href="\music.html" target="_blank"><img src="\image\music.png" width="30" height="30" /></a>
+			<a href="\news.html"><img src="\image\news.png" width="30" height="30" /></a>
+			<a href="\upload.html"><img src="\image\upload.png" width="30" height="30" /></a>
+			<a href="\more.html"><img src="\image\more.png" width="30" height="30" /></a>
+			<a href="\log.html"><img src="\image\log.png" width="30" height="30" /></a>
+		</header>
+	    <form enctype="multipart/form-data" action="upload.php" method="POST">
+			<p>上传文件(支持.doc.docx.ppt.pptx.pdf.pub......)</br>(其他应该也可以)</br></br>提示: 文件名尽量不要带中文(转格式得一个一个试)</br></br>点击递交文件后请选择从相册查找(至少我手机这样)</p>
+			<input type="file" name="file" accept=".doc,.docx,.ppt,.pptx,.pdf,.pub,.bmp,.gif,.jpg,.jpeg,.png">
+			</br>
+			<label for="fileType">文件类型:</label>
+			<select name="fileType" id="fileType">
+				<option value=".doc">doc</option>
+				<option value=".docx">docx</option>
+				<option value=".ppt">ppt</option>
+				<option value=".pptx">pptx</option>
+				<option value=".pdf">pdf</option>
+				<option value=".pub">pub</option>
+				<option value=".png">png</option>
+				<option value=".bmp">bmp</option>
+				<option value=".gif">gif</option>
+				<option value=".jpg">jpg</option>
+				<option value=".jpeg">jpeg</option>
+			</select>
+			</br>
+			<label for="title">标题:</label>
+			<input type="text" name="title" id="title">
+			</br>
+			<label for="author">作者:</label>
+			<input type="text" name="author" id="author">
+			</br>
+			<label for="publisher">发布:</label>
+			<input type="text" name="publisher" id="publisher">
+			</br>
+			<label for="notes">备注:</label>
+			<input type="text" name="notes" id="notes">
+			</br>
+			<label for="pageCount">页数:</label>
+			<input type="number" name="pageCount" id="pageCount" min="1" >
+			</br>
+			<label for="dateTime">时间:</label>
+			<input type="datetime-local" name="dateTime" id="dateTime">
+			</br>
+			<input type="submit" value="提交">
+		</form>
+		<footer>
+		<p>版权所有 &copy; 2023 xwqin</p>
+		</footer>
+	</body>
+</html>

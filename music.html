@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+		<title>清华附小清河分校2018级11班</title>
+		<link rel="shortcut icon" href="\image\class.png">
+		<style>
+				header {
+					background-color:BlueViolet;
+					color:white;
+					text-align:left;
+					padding:5px;
+				}
+				.btn1{
+					 background-color:dodgerblue;
+						color:white;
+						width: 150px;
+						height: 47px;
+						border:0;
+						font-size: 16px;			
+					  border-radius: 30px;
+				  }
+				  .btn2{
+					 background-color:red;
+						color:white;
+						width: 150px;
+						height: 47px;
+						border:0;
+						font-size: 16px;			
+					  border-radius: 30px;
+				  }
+				}
+		</style>
+	</head>
+	<body>
+		<header>
+			<img src="\image\class.png" width="50" height="50" />
+			<a href="\index.html"><img src="\image\home.png" width="30" height="30" /></a>
+			<a href="\our.html"><img src="\image\our.png" width="30" height="30" /></a>
+			<a href="\music.html" target="_blank"><img src="\image\music.png" width="30" height="30" /></a>
+			<a href="\news.html"><img src="\image\news.png" width="30" height="30" /></a>
+			<a href="\upload.html"><img src="\image\upload.png" width="30" height="30" /></a>
+			<a href="\more.html"><img src="\image\more.png" width="30" height="30" /></a>
+			<a href="\log.html"><img src="\image\log.png" width="30" height="30" /></a>
+		</header>
+		</br>
+		<input onclick="enableLoop()" type="button" class="btn1" value="循环播放">
+		<input onclick="disableLoop()" type="button" class="btn2" value="单次播放">
+		</br>
+		<p id="text" style="font-size:15px;color:BlueViolet">当前模式:  单曲</p>
+		<p style="font-size:20px;color:BlueViolet">起风了:</p>
+		<audio id="a1" controls>
+			<source src="\music\1.mp3" type="audio/mpeg">
+		</audio>
+		<p style="font-size:20px;color:BlueViolet">wake:</p>
+		<audio id="a2" controls>
+			<source src="\music\2.mp3" type="audio/mpeg">
+		</audio>
+		<p style="font-size:20px;color:BlueViolet">少年:</p>
+		<audio id="a3" controls>
+			<source src="\music\3.mp3" type="audio/mpeg">
+		</audio>
+		<p style="font-size:20px;color:BlueViolet">再见:</p>
+		<audio id="a4" controls="controls">
+			<source src="\music\4.mp3" type="audio/mpeg">
+		</audio>
+		<p style="font-size:20px;color:BlueViolet">明天会更好:</p>
+		<audio id="a5" controls="controls">
+			<source src="\music\5.mp3" type="audio/mpeg">
+		</audio>
+		<p style="font-size:20px;color:BlueViolet">So Far Away:</p>
+		<audio id="a6" controls="controls">
+			<source src="\music\6.mp3" type="audio/mpeg">
+		</audio>
+		<script>
+			var a = document.getElementById("a1");
+			var b = document.getElementById("a2");
+			var c = document.getElementById("a3");
+			var d = document.getElementById("a4");
+			var e = document.getElementById("a5");
+			var f = document.getElementById("a6");
+			function enableLoop(){ 
+				document.getElementById("text").innerHTML = "当前模式:  循环"
+				a.loop = true;
+				a.load();
+				b.loop = true;
+				b.load();
+				c.loop = true;
+				c.load();
+				d.loop = true;
+				d.load();
+				e.loop = true;
+				e.load();
+				f.loop = true;
+				f.load();
+			} 
+			function disableLoop(){ 
+				document.getElementById("text").innerHTML = "当前模式:  单曲"
+				a.loop = false;
+				a.load();
+				b.loop = false;
+				b.load();
+				c.loop = false;
+				c.load();
+				d.loop = false;
+				d.load();
+				e.loop = false;
+				e.load();
+				f.loop = false;
+				f.load();
+			} 
+		</script>
+		<footer>
+			<p>版权所有 &copy; 2023 xwqin</p>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,760 @@
+项目源文件(截至)2023.8.22
+
+html目录文件
+├─image
+├─music
+├─news
+│    ├─000.html
+│    ├─001.html
+│    ├─002.html
+│    ├─003.html
+│    ├─004.html
+├─index.html
+├─our.html
+├─music.html
+├─news.html
+├─upload.html
+├─more.html
+└─log.html
+
+源代码
+000.html:
+
+
+001.html:
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+		<title>清华附小清河分校2018级11班</title>
+		<link rel="shortcut icon" href="\image\class.png">
+		<style>
+		header {
+			background-color:BlueViolet;
+			color:white;
+			text-align:left;
+			padding:5px;
+		}
+		</style>
+	</head>
+	<body>
+		<header>
+			<img src="\image\class.png" width="50" height="50" />
+			<a href="\index.html"><img src="\image\home.png" width="30" height="30" /></a>
+			<a href="\our.html"><img src="\image\our.png" width="30" height="30" /></a>
+			<a href="\music.html" target="_blank"><img src="\image\music.png" width="30" height="30" /></a>
+			<a href="\news.html"><img src="\image\news.png" width="30" height="30" /></a>
+			<a href="\upload.html"><img src="\image\upload.png" width="30" height="30" /></a>
+			<a href="\more.html"><img src="\image\more.png" width="30" height="30" /></a>
+			<a href="\log.html"><img src="\image\log.png" width="30" height="30" /></a>
+		</header>
+		<center>
+			<h1>《时空二重奏》</h1>
+			<p>作者: 吴若瑜 发布: xwqin 20230811 17:22:30</p>
+			<img src="\image\0011.png" width="100%" height="130%" />
+			<img src="\image\0012.png" width="100%" height="130%" />
+			<img src="\image\0013.png" width="100%" height="130%" />
+			<h2>续~~</h2>
+		</center>
+		<footer>
+		<p>版权所有 &copy; 2023 xwqin</p>
+		</footer>
+	</body>
+</html>
+
+002.html:
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+		<title>清华附小清河分校2018级11班</title>
+		<link rel="shortcut icon" href="\image\class.png">
+		<style>
+		header {
+			background-color:BlueViolet;
+			color:white;
+			text-align:left;
+			padding:5px;
+		}
+		</style>
+	</head>
+	<body>
+		<header>
+			<img src="\image\class.png" width="50" height="50" />
+			<a href="\index.html"><img src="\image\home.png" width="30" height="30" /></a>
+			<a href="\our.html"><img src="\image\our.png" width="30" height="30" /></a>
+			<a href="\music.html" target="_blank"><img src="\image\music.png" width="30" height="30" /></a>
+			<a href="\news.html"><img src="\image\news.png" width="30" height="30" /></a>
+			<a href="\upload.html"><img src="\image\upload.png" width="30" height="30" /></a>
+			<a href="\more.html"><img src="\image\more.png" width="30" height="30" /></a>
+			<a href="\log.html"><img src="\image\log.png" width="30" height="30" /></a>
+		</header>
+		<center>
+			<h1>第一期周报</h1>
+			<p>作者: 小水滴报社 发布: xwqin 20230811 21:15:23</p>
+			<img src="\image\0021.png" width="90%" height="120%" />
+			<img src="\image\0022.png" width="90%" height="120%" />
+			<img src="\image\0023.png" width="90%" height="120%" />
+			<img src="\image\0024.png" width="90%" height="120%" />
+			<img src="\image\0025.png" width="90%" height="120%" />
+			<img src="\image\0026.png" width="90%" height="120%" />
+			<img src="\image\0027.png" width="90%" height="120%" />
+			<img src="\image\0028.png" width="90%" height="120%" />
+		</center>
+		<footer>
+			<p>版权所有 &copy; 2023 xwqin</p>
+		</footer>
+	</body>
+</html>
+
+003.html:
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+		<title>清华附小清河分校2018级11班</title>
+		<link rel="shortcut icon" href="\image\class.png">
+		<style>
+		header {
+			background-color:BlueViolet;
+			color:white;
+			text-align:left;
+			padding:5px;
+		}
+		</style>
+	</head>
+	<body>
+		<header>
+			<img src="\image\class.png" width="50" height="50" />
+			<a href="\index.html"><img src="\image\home.png" width="30" height="30" /></a>
+			<a href="\our.html"><img src="\image\our.png" width="30" height="30" /></a>
+			<a href="\music.html" target="_blank"><img src="\image\music.png" width="30" height="30" /></a>
+			<a href="\news.html"><img src="\image\news.png" width="30" height="30" /></a>
+			<a href="\upload.html"><img src="\image\upload.png" width="30" height="30" /></a>
+			<a href="\more.html"><img src="\image\more.png" width="30" height="30" /></a>
+			<a href="\log.html"><img src="\image\log.png" width="30" height="30" /></a>
+		</header>
+		<center>
+			<h1>第二期周报</h1>
+			<p>作者: 小水滴报社 发布: xwqin 20230811 21:29:43</p>
+			<img src="\image\0031.png" width="90%" height="120%" />
+			<img src="\image\0032.png" width="90%" height="120%" />
+			<img src="\image\0033.png" width="90%" height="120%" />
+			<img src="\image\0034.png" width="90%" height="120%" />
+			<img src="\image\0035.png" width="90%" height="120%" />
+			<img src="\image\0036.png" width="90%" height="120%" />
+			<img src="\image\0037.png" width="90%" height="120%" />
+		</center>
+		<footer>
+			<p>版权所有 &copy; 2023 xwqin</p>
+		</footer>
+	</body>
+</html>
+
+004.html:
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+		<title>清华附小清河分校2018级11班</title>
+		<link rel="shortcut icon" href="\image\class.png">
+		<style>
+		header {
+			background-color:BlueViolet;
+			color:white;
+			text-align:left;
+			padding:5px;
+		}
+		</style>
+	</head>
+	<body>
+		<header>
+			<img src="\image\class.png" width="50" height="50" />
+			<a href="\index.html"><img src="\image\home.png" width="30" height="30" /></a>
+			<a href="\our.html"><img src="\image\our.png" width="30" height="30" /></a>
+			<a href="\music.html" target="_blank"><img src="\image\music.png" width="30" height="30" /></a>
+			<a href="\news.html"><img src="\image\news.png" width="30" height="30" /></a>
+			<a href="\upload.html"><img src="\image\upload.png" width="30" height="30" /></a>
+			<a href="\more.html"><img src="\image\more.png" width="30" height="30" /></a>
+			<a href="\log.html"><img src="\image\log.png" width="30" height="30" /></a>
+		</header>
+		<center>
+			<h1>第三期周报</h1>
+			<p>作者: 小水滴报社 发布: xwqin 20230811 21:36:07</p>
+			<img src="\image\0041.png" width="90%" height="120%" />
+			<img src="\image\0042.png" width="90%" height="120%" />
+			<img src="\image\0043.png" width="90%" height="120%" />
+			<img src="\image\0044.png" width="90%" height="120%" />
+		</center>
+		<footer>
+			<p>版权所有 &copy; 2023 xwqin</p>
+		</footer>
+	</body>
+</html>
+
+index.html:
+<!DOCTYPE html>
+<html>
+	<head>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+			<title>清华附小清河分校2018级11班</title>
+			<link rel="shortcut icon" href="\image\class.png">
+			<style>
+			header {
+				background-color:BlueViolet;
+				color:white;
+				text-align:left;
+				padding:5px;
+			}
+			</style>
+		</head>
+	<body>
+		<header>
+			<img src="\image\class.png" width="50" height="50" />
+			<a href="\index.html"><img src="\image\home.png" width="30" height="30" /></a>
+			<a href="\our.html"><img src="\image\our.png" width="30" height="30" /></a>
+			<a href="\music.html" target="_blank"><img src="\image\music.png" width="30" height="30" /></a>
+			<a href="\news.html"><img src="\image\news.png" width="30" height="30" /></a>
+			<a href="\upload.html"><img src="\image\upload.png" width="30" height="30" /></a>
+			<a href="\more.html"><img src="\image\more.png" width="30" height="30" /></a>
+			<a href="\log.html"><img src="\image\log.png" width="30" height="30" /></a>
+		</header>
+		<footer>
+		<p>版权所有 &copy; 2023 xwqin</p>
+		</footer>
+	</body>
+</html>
+
+our.html:
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+		<title>清华附小清河分校2018级11班</title>
+		<link rel="shortcut icon" href="\image\class.png">
+		<style>
+		header {
+			background-color:BlueViolet;
+			color:white;
+			text-align:left;
+			padding:5px;
+		}
+		</style>
+	</head>
+	<body>
+	<header>
+		<img src="\image\class.png" width="50" height="50" />
+		<a href="\index.html"><img src="\image\home.png" width="30" height="30" /></a>
+		<a href="\our.html"><img src="\image\our.png" width="30" height="30" /></a>
+		<a href="\music.html" target="_blank"><img src="\image\music.png" width="30" height="30" /></a>
+		<a href="\news.html"><img src="\image\news.png" width="30" height="30" /></a>
+		<a href="\upload.html"><img src="\image\upload.png" width="30" height="30" /></a>
+		<a href="\more.html"><img src="\image\more.png" width="30" height="30" /></a>
+		<a href="\log.html"><img src="\image\log.png" width="30" height="30" /></a>
+	</header>
+	<table>
+		<tr>
+			<td><img src="\image\.png" width="100" height="100" /></td>
+			<td><img src="\image\.png" width="100" height="100" /></td>
+			<td><img src="\image\.png" width="100" height="100" /></td>
+			<td><img src="\image\.png" width="100" height="100" /></td>
+			<td><img src="\image\.png" width="100" height="100" /></td>
+			<td><img src="\image\.png" width="100" height="100" /></td>
+		</tr>
+		<tr>
+			<td><p style="font-size:10px;font-family:得意黑;color:BlueViolet"></p>
+			</td>
+			<td><p style="font-size:10px;font-family:得意黑;color:BlueViolet"></p>
+			</td>
+			<td><p style="font-size:10px;font-family:得意黑;color:BlueViolet"></p>
+			</td>
+			<td><p style="font-size:10px;font-family:得意黑;color:BlueViolet"></p>
+			</td>
+		</tr>
+		<tr>
+			<td><img src="\image\.png" width="100" height="100" /></td>
+			<td><img src="\image\.png" width="100" height="100" /></td>
+			<td><img src="\image\.png" width="100" height="100" /></td>
+			<td><img src="\image\.png" width="100" height="100" /></td>
+			<td><img src="\image\.png" width="100" height="100" /></td>
+			<td><img src="\image\.png" width="100" height="100" /></td>
+		</tr>
+		<tr>
+			<td><p style="font-size:10px;font-family:得意黑;color:BlueViolet"></p>
+			</td>
+			<td><p style="font-size:10px;font-family:得意黑;color:BlueViolet"></p>
+			</td>
+			<td><p style="font-size:10px;font-family:得意黑;color:BlueViolet"></p>
+			</td>
+			<td><p style="font-size:10px;font-family:得意黑;color:BlueViolet"></p>
+			</td>
+		</tr>
+		<tr>
+			<td><img src="\image\.png" width="100" height="100" /></td>
+			<td><img src="\image\.png" width="100" height="100" /></td>
+			<td><img src="\image\.png" width="100" height="100" /></td>
+			<td><img src="\image\.png" width="100" height="100" /></td>
+			<td><img src="\image\.png" width="100" height="100" /></td>
+			<td><img src="\image\.png" width="100" height="100" /></td>
+		</tr>
+		<tr>
+			<td><p style="font-size:10px;font-family:得意黑;color:BlueViolet"></p>
+			</td>
+			<td><p style="font-size:10px;font-family:得意黑;color:BlueViolet"></p>
+			</td>
+			<td><p style="font-size:10px;font-family:得意黑;color:BlueViolet"></p>
+			</td>
+			<td><p style="font-size:10px;font-family:得意黑;color:BlueViolet"></p>
+			</td>
+		</tr>
+		<tr>
+			<td><img src="\image\.png" width="100" height="100" /></td>
+			<td><img src="\image\.png" width="100" height="100" /></td>
+			<td><img src="\image\.png" width="100" height="100" /></td>
+			<td><img src="\image\.png" width="100" height="100" /></td>
+			<td><img src="\image\.png" width="100" height="100" /></td>
+			<td><img src="\image\.png" width="100" height="100" /></td>
+		</tr>
+		<tr>
+			<td><p style="font-size:10px;font-family:得意黑;color:BlueViolet"></p>
+			</td>
+			<td><p style="font-size:10px;font-family:得意黑;color:BlueViolet"></p>
+			</td>
+			<td><p style="font-size:10px;font-family:得意黑;color:BlueViolet"></p>
+			</td>
+			<td><p style="font-size:10px;font-family:得意黑;color:BlueViolet"></p>
+			</td>
+		</tr>
+		<tr>
+			<td><img src="\image\.png" width="100" height="100" /></td>
+			<td><img src="\image\.png" width="100" height="100" /></td>
+			<td><img src="\image\.png" width="100" height="100" /></td>
+			<td><img src="\image\.png" width="100" height="100" /></td>
+			<td><img src="\image\.png" width="100" height="100" /></td>
+			<td><img src="\image\.png" width="100" height="100" /></td>
+		</tr>
+		<tr>
+			<td><p style="font-size:10px;font-family:得意黑;color:BlueViolet"></p>
+			</td>
+			<td><p style="font-size:10px;font-family:得意黑;color:BlueViolet"></p>
+			</td>
+			<td><p style="font-size:10px;font-family:得意黑;color:BlueViolet"></p>
+			</td>
+			<td><p style="font-size:10px;font-family:得意黑;color:BlueViolet"></p>
+			</td>
+		</tr>
+		<tr>
+			<td><img src="\image\.png" width="100" height="100" /></td>
+			<td><img src="\image\.png" width="100" height="100" /></td>
+			<td><img src="\image\.png" width="100" height="100" /></td>
+			<td><img src="\image\.png" width="100" height="100" /></td>
+			<td><img src="\image\.png" width="100" height="100" /></td>
+			<td><img src="\image\.png" width="100" height="100" /></td>
+		</tr>
+		<tr>
+			<td><p style="font-size:10px;font-family:得意黑;color:BlueViolet"></p>
+			</td>
+			<td><p style="font-size:10px;font-family:得意黑;color:BlueViolet"></p>
+			</td>
+			<td><p style="font-size:10px;font-family:得意黑;color:BlueViolet"></p>
+			</td>
+			<td><p style="font-size:10px;font-family:得意黑;color:BlueViolet"></p>
+			</td>
+		</tr>
+		<tr>
+			<td><img src="\image\.png" width="100" height="100" /></td>
+			<td><img src="\image\.png" width="100" height="100" /></td>
+			<td><img src="\image\.png" width="100" height="100" /></td>
+			<td><img src="\image\.png" width="100" height="100" /></td>
+			<td><img src="\image\.png" width="100" height="100" /></td>
+			<td><img src="\image\.png" width="100" height="100" /></td>
+		</tr>
+		<tr>
+			<td><p style="font-size:10px;font-family:得意黑;color:BlueViolet"></p>
+			</td>
+			<td><p style="font-size:10px;font-family:得意黑;color:BlueViolet"></p>
+			</td>
+			<td><p style="font-size:10px;font-family:得意黑;color:BlueViolet"></p>
+			</td>
+			<td><p style="font-size:10px;font-family:得意黑;color:BlueViolet"></p>
+			</td>
+		</tr>
+	</table>
+	<footer>
+		<p>版权所有 &copy; 2023 xwqin</p>
+	</footer>
+	</body>
+</html>
+
+music.html:
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+		<title>清华附小清河分校2018级11班</title>
+		<link rel="shortcut icon" href="\image\class.png">
+		<style>
+				header {
+					background-color:BlueViolet;
+					color:white;
+					text-align:left;
+					padding:5px;
+				}
+				.btn1{
+					 background-color:dodgerblue;
+						color:white;
+						width: 150px;
+						height: 47px;
+						border:0;
+						font-size: 16px;			
+					  border-radius: 30px;
+				  }
+				  .btn2{
+					 background-color:red;
+						color:white;
+						width: 150px;
+						height: 47px;
+						border:0;
+						font-size: 16px;			
+					  border-radius: 30px;
+				  }
+				}
+		</style>
+	</head>
+	<body>
+		<header>
+			<img src="\image\class.png" width="50" height="50" />
+			<a href="\index.html"><img src="\image\home.png" width="30" height="30" /></a>
+			<a href="\our.html"><img src="\image\our.png" width="30" height="30" /></a>
+			<a href="\music.html" target="_blank"><img src="\image\music.png" width="30" height="30" /></a>
+			<a href="\news.html"><img src="\image\news.png" width="30" height="30" /></a>
+			<a href="\upload.html"><img src="\image\upload.png" width="30" height="30" /></a>
+			<a href="\more.html"><img src="\image\more.png" width="30" height="30" /></a>
+			<a href="\log.html"><img src="\image\log.png" width="30" height="30" /></a>
+		</header>
+		</br>
+		<input onclick="enableLoop()" type="button" class="btn1" value="循环播放">
+		<input onclick="disableLoop()" type="button" class="btn2" value="单次播放">
+		</br>
+		<p id="text" style="font-size:15px;color:BlueViolet">当前模式:  单曲</p>
+		<p style="font-size:20px;font-family:得意黑;color:BlueViolet">起风了:</p>
+		<audio id="a1" controls>
+			<source src="\music\1.mp3" type="audio/mpeg">
+		</audio>
+		<p style="font-size:20px;font-family:得意黑;color:BlueViolet">wake:</p>
+		<audio id="a2" controls>
+			<source src="\music\2.mp3" type="audio/mpeg">
+		</audio>
+		<p style="font-size:20px;font-family:得意黑;color:BlueViolet">少年:</p>
+		<audio id="a3" controls>
+			<source src="\music\3.mp3" type="audio/mpeg">
+		</audio>
+		<p style="font-size:20px;font-family:得意黑;color:BlueViolet">再见:</p>
+		<audio id="a4" controls="controls">
+			<source src="\music\4.mp3" type="audio/mpeg">
+		</audio>
+		<p style="font-size:20px;font-family:得意黑;color:BlueViolet">明天会更好:</p>
+		<audio id="a5" controls="controls">
+			<source src="\music\5.mp3" type="audio/mpeg">
+		</audio>
+		<p style="font-size:20px;font-family:得意黑;color:BlueViolet">So Far Away:</p>
+		<audio id="a6" controls="controls">
+			<source src="\music\6.mp3" type="audio/mpeg">
+		</audio>
+		<script>
+			var a = document.getElementById("a1");
+			var b = document.getElementById("a2");
+			var c = document.getElementById("a3");
+			var d = document.getElementById("a4");
+			var e = document.getElementById("a5");
+			var f = document.getElementById("a6");
+			function enableLoop(){ 
+				document.getElementById("text").innerHTML = "当前模式:  循环"
+				a.loop = true;
+				a.load();
+				b.loop = true;
+				b.load();
+				c.loop = true;
+				c.load();
+				d.loop = true;
+				d.load();
+				e.loop = true;
+				e.load();
+				f.loop = true;
+				f.load();
+			} 
+			function disableLoop(){ 
+				document.getElementById("text").innerHTML = "当前模式:  单曲"
+				a.loop = false;
+				a.load();
+				b.loop = false;
+				b.load();
+				c.loop = false;
+				c.load();
+				d.loop = false;
+				d.load();
+				e.loop = false;
+				e.load();
+				f.loop = false;
+				f.load();
+			} 
+		</script>
+		<footer>
+			<p>版权所有 &copy; 2023 xwqin</p>
+		</footer>
+	</body>
+</html>
+
+news.html:
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+		<title>清华附小清河分校2018级11班</title>
+		<link rel="shortcut icon" href="\image\class.png">
+		<style>
+		header {
+			background-color:BlueViolet;
+			color:white;
+			text-align:left;
+			padding:5px;
+		}
+		.box{
+			background-color: blueviolet;
+			color: black;
+			padding: 10px;
+			border-radius: 10px;
+			width: 150px;
+			height: 250px;
+			margin-bottom: 20px;
+			display: inline-block;
+		}
+		</style>
+	</head>
+	<body>
+		<header>
+			<img src="\image\class.png" width="50" height="50" />
+			<a href="\index.html"><img src="\image\home.png" width="30" height="30" /></a>
+			<a href="\our.html"><img src="\image\our.png" width="30" height="30" /></a>
+			<a href="\music.html" target="_blank"><img src="\image\music.png" width="30" height="30" /></a>
+			<a href="\news.html"><img src="\image\news.png" width="30" height="30" /></a>
+			<a href="\upload.html"><img src="\image\upload.png" width="30" height="30" /></a>
+			<a href="\more.html"><img src="\image\more.png" width="30" height="30" /></a>
+			<a href="\log.html"><img src="\image\log.png" width="30" height="30" /></a>
+		</header>
+		</br>
+		<div class="box">
+			<a href="\news\000.html">
+					<img src="\image\0001.png" width="150" height="200" />
+				</a>
+			<p style="font-size:14px" align="center">招聘 小水滴报社</p>
+		</div>
+		<div class="box">
+			<a href="\news\001.html">
+					<img src="\image\0011.png" width="150" height="200" />
+				</a>
+			<p style="font-size:14px" align="center">《时空二重奏》吴若瑜</p>
+		</div>
+		<div class="box">
+			<a href="\news\002.html">
+					<img src="\image\0021.png" width="150" height="200" />
+				</a>
+			<p style="font-size:14px" align="center">第一期周报 小水滴报社</p>
+		</div>
+		<div class="box">
+			<a href="\news\003.html">
+					<img src="\image\0031.png" width="150" height="200" />
+				</a>
+			<p style="font-size:14px" align="center">第二期周报 小水滴报社</p>
+		</div>
+		<div class="box">
+			<a href="\news\004.html">
+					<img src="\image\0041.png" width="150" height="200" />
+				</a>
+			<p style="font-size:14px" align="center">第三期周报 小水滴报社</p>
+		</div>
+		<footer>
+			<p>版权所有 &copy; 2023 xwqin</p>
+		</footer>
+	</body>
+</html>
+
+upload.html:
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+		<title>清华附小清河分校2018级11班</title>
+		<link rel="shortcut icon" href="\image\class.png">
+		<style>
+		header {
+			background-color:BlueViolet;
+			color:white;
+			text-align:left;
+			padding:5px;
+		}
+		.inputText{
+					width: 300px;
+					height: 30px;
+					line-height: 10px;
+					font-size: 15px;
+					padding-left: 30px;
+					border-radius: 50px;
+					background-color: gainsboro;
+					border: none;
+				}
+				.inputText:focus{
+					outline: none;
+					background-color: lightblue;
+				}
+		</style>
+	</head>
+	<body>
+		<header>
+			<img src="\image\class.png" width="50" height="50" />
+			<a href="\index.html"><img src="\image\home.png" width="30" height="30" /></a>
+			<a href="\our.html"><img src="\image\our.png" width="30" height="30" /></a>
+			<a href="\music.html" target="_blank"><img src="\image\music.png" width="30" height="30" /></a>
+			<a href="\news.html"><img src="\image\news.png" width="30" height="30" /></a>
+			<a href="\upload.html"><img src="\image\upload.png" width="30" height="30" /></a>
+			<a href="\more.html"><img src="\image\more.png" width="30" height="30" /></a>
+			<a href="\log.html"><img src="\image\log.png" width="30" height="30" /></a>
+		</header>
+		<h2>Login</h2>
+		<p>Please enter your administrator name id:</p>
+		<input type="text" id="userid" class="inputText">
+		<p>Please enter your administrator password:</p>
+		<input type="password" id="psw" class="inputText">
+		</br>
+		</br>
+		<input type="button" onclick="login()" value="login">
+		<footer>
+			<p>版权所有 &copy; 2023 xwqin</p>
+		</footer>
+		<script>
+			function login() {
+				var name=document.getElementById("userid").value; 
+				var pass=document.getElementById("psw").value;
+				if (name=="xxxx" && pass=="xxxxxx" || name=="xxx" && pass=="xxxx") {  
+					alert("登录成功！");
+					window.location.href="/upload_r.html";
+				}else if (name=="" || pass==""){
+					alert("用户名或密码不能为空！");
+				}else{
+					alert("用户名或密码错误！");
+				}
+			}
+		</script>
+	</body>
+</html>
+
+more.html:
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+		<title>清华附小清河分校2018级11班</title>
+		<link rel="shortcut icon" href="\image\class.png">
+		<style>
+		header {
+			background-color:BlueViolet;
+			color:white;
+			text-align:left;
+			padding:5px;
+		}
+		</style>
+	</head>
+	<body>
+		<header>
+			<img src="\image\class.png" width="50" height="50" />
+			<a href="\index.html"><img src="\image\home.png" width="30" height="30" /></a>
+			<a href="\our.html"><img src="\image\our.png" width="30" height="30" /></a>
+			<a href="\music.html" target="_blank"><img src="\image\music.png" width="30" height="30" /></a>
+			<a href="\news.html"><img src="\image\news.png" width="30" height="30" /></a>
+			<a href="\upload.html"><img src="\image\upload.png" width="30" height="30" /></a>
+			<a href="\more.html"><img src="\image\more.png" width="30" height="30" /></a>
+			<a href="\log.html"><img src="\image\log.png" width="30" height="30" /></a>
+		</header>
+		<h1>关于本网站</h1>
+		<h2>开发架构</h2>
+		<ul>
+			<li>
+				创始: xwqin2022
+			</li>
+			<li>
+				开发: 负责各功能开发与维护等
+			</li>
+			<li>
+				运营: 负责活动记录、日常维护等
+			</li>
+			<li>
+				服务器: GOME2017X82A(<del>HUAWEI P9 EVA-AL00</del>)(手机)
+			</li>
+			<li>
+				<a href="\code.txt" style="text-decoration: none;">项目源码</a>
+			</li>
+		</ul>
+		<h2>在此致谢</h2>
+		<ul>
+			<li>
+				
+			</li>
+		</ul>
+		<footer>
+		<p>版权所有 &copy; 2023 xwqin</p>
+		</footer>
+	</body>
+</html>
+
+log.html:
+<!DOCTYPE html>
+<html>
+	<head>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+			<title>清华附小清河分校2018级11班</title>
+			<link rel="shortcut icon" href="\image\class.png">
+			<style>
+			header {
+				background-color:BlueViolet;
+				color:white;
+				text-align:left;
+				padding:5px;
+			}
+			</style>
+		</head>
+	<body>
+		<header>
+			<img src="\image\class.png" width="50" height="50" />
+			<a href="\index.html"><img src="\image\home.png" width="30" height="30" /></a>
+			<a href="\our.html"><img src="\image\our.png" width="30" height="30" /></a>
+			<a href="\music.html" target="_blank"><img src="\image\music.png" width="30" height="30" /></a>
+			<a href="\news.html"><img src="\image\news.png" width="30" height="30" /></a>
+			<a href="\upload.html"><img src="\image\upload.png" width="30" height="30" /></a>
+			<a href="\more.html"><img src="\image\more.png" width="30" height="30" /></a>
+			<a href="\log.html"><img src="\image\log.png" width="30" height="30" /></a>
+		</header>
+		<h2>更新&管理日志</h2>
+		<ul>
+			<li>
+				230822更新: 解决手机、平板端icon图标小的问题，电脑端不变
+			</li>
+			<li>
+				230823更新: 增加查看项目源码功能
+			</li>
+		</ul>
+		<footer>
+		<p>版权所有 &copy; 2023 xwqin</p>
+		</footer>
+	</body>
+</html>
